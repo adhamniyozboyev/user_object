@@ -9,7 +9,7 @@ class User {
   // Define a constructor to convert the JSON to User object
   User.fromJson(Map<String, dynamic> json) {
     username = json['username'];
-    firstname = json['firstname'];
+    firstname = json['name'];
     lastname = json['lastname'];
   }
 }
