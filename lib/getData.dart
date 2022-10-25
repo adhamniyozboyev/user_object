@@ -4,3 +4,10 @@ String readData(String path) {
 
   return '';
 }
+
+// Define a function to convert the data to JSON
+Map<String, dynamic> convertData(String data) {
+  // Convert the data to JSON
+
+  return {};
+}
